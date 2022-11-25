@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Browser Extension",
+  "name": "Fake/Real Job Posting Browser Extension",
   "description": "An extension that takes in a job posting data and shows if it is fraudulent or real",
   "version": "1.0.0",
   "action": {

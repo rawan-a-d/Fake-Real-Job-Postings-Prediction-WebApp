@@ -11,7 +11,7 @@ import { CustomSnackBarService } from './services/custom-snack-bar.service';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'page-reader-extension';
+  title = 'fake-real-job-postings-browser-extension';
   rawlist: any;
   prediction!: Prediction;
 
@@ -23,7 +23,7 @@ export class AppComponent {
   ngOnInit() { }
 
   sendRequest(jobPosting: string) {
-    this.appService.predictUsingText(jobPosting)
+    this.appService.predictUsingText(jobPosting.replace(/\//g, " "))
       .subscribe((result) => {
         this.prediction = <Prediction>result;
 

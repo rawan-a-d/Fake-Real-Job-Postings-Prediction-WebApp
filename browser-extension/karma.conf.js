@@ -25,7 +25,7 @@ module.exports = function (config) {
       suppressAll: true // removes the duplicated traces
     },
     coverageReporter: {
-      dir: require('path').join(__dirname, './coverage/page-reader-extension'),
+      dir: require('path').join(__dirname, './coverage/fake-real-job-postings-browser-extension'),
       subdir: '.',
       reporters: [
         { type: 'html' },
