@@ -1,7 +1,6 @@
 # A RESTful API built with Flask
 
-It makes use of a trained AI model that predicts with 95% accuracy if a job posting is fraudulent or real.
-[Fake or Real Job Postings Prediction AI](https://github.com/rawan-a-d/Fake-Real-Job-Postings-Prediction)
+It makes use of a trained AI model ([Fake or Real Job Postings Prediction AI](https://github.com/rawan-a-d/Fake-Real-Job-Postings-Prediction)) that predicts with 95% accuracy if a job posting is fraudulent or real.
 
 ## Run app:
 

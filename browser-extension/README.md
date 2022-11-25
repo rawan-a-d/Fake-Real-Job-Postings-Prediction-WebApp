@@ -1,4 +1,4 @@
-# Browser Extension
+# Browser Extension built with Angular
 
 This extension can be used to send a job posting data to the API, it then shows if the job posting is fraudulent or real.
 

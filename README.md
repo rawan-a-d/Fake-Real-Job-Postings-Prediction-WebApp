@@ -1,4 +1,4 @@
-# Fake-Real-Job-Postings-Prediction-WebApp
+# Fake/Real Job Postings Prediction WebApp
 
 Looking for a job is a time consuming possibly stressful process, for each application you have to tweak your resume and create a cover letter tailored to the job posting.
 There are a lot of websites that allow users to add job postings and they are very often not verified by an administrator or the system itself.
