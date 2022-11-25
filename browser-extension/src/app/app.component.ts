@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 import { AppService } from './services/app.service';
-import { extract } from 'article-parser'
 import { Prediction } from './models/Prediction';
 import { MatSnackBar } from '@angular/material/snack-bar';
 import { CustomSnackBarService } from './services/custom-snack-bar.service';
@@ -12,7 +11,6 @@ import { CustomSnackBarService } from './services/custom-snack-bar.service';
 })
 export class AppComponent {
   title = 'fake-real-job-postings-browser-extension';
-  rawlist: any;
   prediction!: Prediction;
 
   constructor(private appService: AppService,
