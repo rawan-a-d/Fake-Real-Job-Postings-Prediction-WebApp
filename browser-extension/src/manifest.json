@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Browser Extension",
+  "description": "An extension that takes in a job posting data and shows if it is fraudulent or real",
+  "version": "1.0.0",
+  "action": {
+    "default_popup": "index.html"
+  },
+  "host_permissions": ["http://*/*", "https://*/*", "*://*/*"],
+  "permissions": ["tabs"]
+}

@@ -1,0 +1,20 @@
+<div class="browser">
+
+  <!-- Text -->
+  <section class="text-form">
+    <label>Paste job posting text here: </label>
+    <mat-form-field class="example-full-width" appearance="fill">
+      <mat-label>Job posting</mat-label>
+      <textarea matInput placeholder="Ex. We offer opportunities for..." #jobPosting></textarea>
+    </mat-form-field>
+  </section>
+
+  <!-- Buttons -->
+  <section class="buttons">
+    <button mat-raised-button color="primary" (click)="sendRequest(jobPosting.value)"
+      [disabled]="jobPosting.value == ''">Predict</button>
+    <button mat-raised-button (click)="reset(); jobPosting.value = '';" color="warn">Reset</button>
+  </section>
+
+  {{rawlist }}
+</div>

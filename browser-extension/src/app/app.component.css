@@ -1,0 +1,25 @@
+.browser {
+  width: 500px;
+  height: 500px;
+}
+
+/*.example-form {
+  width: 100%;
+}*/
+
+.example-full-width {
+  width: 100%;
+}
+
+.example-full-width textarea {
+  height: 200px;
+}
+
+.text-form {
+  width: 80%;
+  margin: 2% 10%;
+}
+
+.buttons {
+  text-align: center;
+}
